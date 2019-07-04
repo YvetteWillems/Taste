@@ -28,10 +28,11 @@ class User_model extends CI_Model {
         $email = $this->input->post('email');
         $password = sha1($this->config->item('salt') . $this->input->post('password'));
 
-        $sql = "INSERT INTO users (usr_firstname, usr_lastname, usr_email, usr_password)
+        $sql = "INSERT INTO users (usr_firstname, usr_lastname, usr_email, usr_email_confirmed, usr_password)
                 VALUES(" . $this->db->escape($firstname) . ",
                         " . $this->db->escape($lastname) . ",
                         '" . $email . "',
+                        '1',
                         '" . $password . "')";
         
         $result = $this->db->query($sql);
