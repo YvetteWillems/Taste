@@ -1,0 +1,162 @@
+/* INPUT CLASSES */
+.input-home {
+    /* helaas moeten border-style en border-bottem samen, anders had ik er twee aparte classes van kunnen maken */
+    margin-top: 80%; 
+}
+
+/* SEARCH FOR INGREDIENTS */
+.to-front {
+    position: absolute;
+    z-index: 1;
+}
+
+.search-result {
+    font-size: 20px;
+    text-align: left!important;
+}
+
+.ingredient-list {
+    text-align: left!important;
+}
+
+.ingredient-match {
+    display: block;
+}
+
+/* SHOW INGREDIENTS */
+.left-box {
+    position: relative;
+}
+
+/* all ingredients should have: */
+.all-ingredients {
+    position: absolute;
+    /* box-shadow: 0px 0px 5px 0px rgba(0, 20, 39, 0.5)!important; */
+    /* text alignment: */
+    text-align: center;
+    padding: auto;
+}
+
+.all-ingredients p {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 30% auto;
+
+    text-shadow: 0px 0px 2px rgba(0, 20, 39, 0.8)!important;
+    opacity: 1;
+}
+
+/* original should have: */
+.original-ingr {
+    position: absolute;
+    top: 215px;
+    width: 170px;
+    height: 170px;
+    border-radius: 85px;
+}
+
+.choosen {
+    opacity: 1!important;
+    filter: invert(0.2) blur(0.4px);
+}
+
+.choosen p {
+    opacity: 1!important;
+    filter: invert(0)!important;
+    color: white;
+}
+
+/* Align and Overflow: */
+.ingredient-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.ingredient-container {
+    position: relative!important;
+    margin: 0;
+}
+
+.overflow-hide {
+    overflow: hidden;
+}
+
+.overflow-show {
+    overflow: visible;
+}
+
+#drag-ingredients {
+    position: absolute;
+
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#ingredient-results {
+    position: relative!important;
+}
+
+.ingredient-menu div {
+    display: inline-block; 
+}
+
+/* TASTEBOARDS USERMENU */
+.tasteboard-details {
+    padding: 0px 0px 10px 20px;
+}
+
+.pdf-options {
+    padding-top: 5.6px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+/* ADMIN */
+.ingredient-color {
+    width: 50px;
+    height: 10px;
+    display: inline-block;
+}
+
+.aroma-lineheight {
+    margin-top: -4px;
+}
+
+.lineheight {
+    line-height: 16px;
+    margin-top: -4px;
+}
+
+.example-colors {
+    width: 100px;
+    height: 100px;
+}
+
+.admin-content-block {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.admin-content-block-all {
+    padding: 20px;
+}
+
+.admin-content-aromas {
+    padding-left: 20px;
+    width: 400px;
+}

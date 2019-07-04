@@ -1,0 +1,233 @@
+/* BUTTONS */
+.button {
+    border-style: none;
+    border: 0px solid;
+    background-color: transparent; 
+    padding: 0;
+    text-decoration: underline;
+}
+
+.button:focus {
+    outline: 0; 
+}
+
+/* LINKS / A TAG */
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    /* color: #776274; */
+    color: #001427;
+}
+
+a:visited {
+    /* color: #776274; */
+    color: #001427;
+}
+
+.click {
+    cursor: pointer;
+}
+
+/* COLOR CLASSES */
+/* achtergrond en tekstkleur, achtergrond en tekstkleur omgedraaid, enkel tekstkleur, enkel achtergrondkleur: */
+.color-text {
+    /* color: #776274; */
+    color: #001427;
+}
+
+.color-text-neg {
+    /* color: #DAD6D6; */
+    color: #FFF;
+}
+
+.color-back {
+    /* background-color: #DAD6D6;  */
+    background-color: #FFF;
+}
+
+.color-back-neg {
+    /* background-color: #776274;  */
+    background-color: #001427;
+}
+
+.color-text-back {
+    /* background-color: #DAD6D6;  */
+    background-color: #FFF;
+    /* color: #776274; */
+    color: #001427;
+}
+
+.color-text-back-neg {
+    /* background-color: #776274; */
+    background-color: #001427; 
+    /* color: #DAD6D6; */
+    color: #FFF;
+}
+
+/* BORDERS */
+.border-all {
+    border: 1px solid #001427;
+}
+
+.border-top {
+    border-top: 1px solid #001427;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #001427;
+}
+
+.border-left {
+    border-left: 1px solid #001427;
+}
+
+/* INPUTS */
+.color-input {
+    /* border-style en border-bottem moeten samen, anders werken ze niet */
+    border-style: none;
+    border-bottom: 1px solid #001427;
+    background-color: transparent; 
+
+    padding: 4px;
+    width: 99%; 
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none !important;
+    background-color: transparent;
+}
+
+select:focus {
+    outline: none !important;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #001427;
+    font-style: italic;
+    background-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+    background-color: transparent;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #001427 !important;
+    background-color: transparent;
+}
+
+input[type="submit"] {
+    text-decoration: underline;
+}
+
+/* SELECTED INGREDIENT CLASSES */
+.selected-ingredient {
+    box-shadow: 0px 0px 15px 1px #001427;
+}
+
+.not-selected {
+    box-shadow: none;
+}
+
+/* VIEWPORT HEIGHTS */
+.viewport-height-87 {
+    height: 87vh;
+}
+
+.viewport-height-90 {
+    height: 90vh;
+}
+
+.viewport-height-78 {
+    height: 78vh;
+}
+
+/* BLOCK HEIGHTS */
+.block-width-100 {
+    width: 100%;
+}
+
+.block-height-100 {
+    height: 100%;
+}
+
+.block-height-95 {
+    height: 95%;
+}
+
+.block-height-93 {
+    height: 93%;
+}
+
+.block-height-90 {
+    height: 90%;
+}
+
+.block-height-87 {
+    height: 87%;
+}
+
+.block-height-85 {
+    height: 85%;
+}
+
+.block-height-80 {
+    height: 80%;
+}
+
+.block-height-10 {
+    height: 10%;
+}
+
+.block-height-9 {
+    height: 9%;
+}
+
+.block-height-8 {
+    height: 8%;
+}
+
+.block-height-5 {
+    height: 5%;
+}
+
+.block-height-4 {
+    height: 4%;
+}
+
+.block-height-3 {
+    height: 3%;
+}
+
+.block-height-2 {
+    height: 2%;
+}
+
+/* FONT SIZES */
+.fs16 {
+    font-size: 16px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs10 {
+    font-size: 10px;
+}
+
+.fs8 {
+    font-size: 8px;
+}

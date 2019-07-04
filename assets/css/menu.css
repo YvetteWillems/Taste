@@ -1,0 +1,125 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* DESKTOP */
+    /* USER MENU */
+    .to-front {
+        position: absolute;
+        z-index: 2;
+    }
+
+    #user-menu-large {
+        display: none;
+        position: absolute;
+        z-index: 4;
+    }
+
+    #user-menu-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+
+        overflow: scroll;
+    }
+
+    /* EXTRA MENU */
+    .extra-menu-large {
+        border-left: 1px solid #001427;
+    }
+
+    #extra-menu-content {
+        overflow: scroll;
+    }
+
+/* MOBILE */
+    /* USER MENU */
+    #mobile-user-menu {
+        display:none;
+        width: 100%;
+        height: 86%;
+        margin: auto;
+    
+        top: 9%;
+        position: absolute;
+        z-index: 4;
+
+        padding-top: 20px;
+    }
+
+    /* EXTRA MENU */
+    #mobile-extra-menu-content {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+        overflow: scroll;
+    }
+
+    #mobile-extra-menu-id {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .extra-menu-styling {
+        width: 100vw;
+        padding-top: 10px;
+    }
+
+
+/* BOTH */
+    /* USER MENU */
+    #user-menu-large {
+        display: none;
+        position: absolute;
+        z-index: 4;
+    }
+
+    .cross_close {
+        height: 25px;
+    }
+
+    .user-menu-content {
+        padding: 10px 0px 0px 15px;
+    }
+
+    .tasteboard-details {
+        padding-left: 20px;
+    }
+
+    .image-ingredient {
+        position: absolute;
+        z-index: 3;
+        display: none;
+        left: 0;
+        right: 0;
+        margin: 40% auto;
+
+        background-image: url('../img/almond.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        width: 350px;
+        height: 125px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    /* SAVE/EMPTY */
+    #extra-menu-info {
+        display: none;
+    }
+
+    #extra-menu-add {
+        display: none;
+    }
+
+    #save-button {
+        display: none;
+    }
+
+    #empty-button {
+        display: none;
+    }
+
+
+
